@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guess Game</title>
+    <link rel="stylesheet" href="./Game.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="link" id="link1">
+            <a href="https://www.linkedin.com/in/shamik-shaik/" target="_blank" class="font">LinkedIn</a>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <div class="link" id="link2">
+            <a href="https://github.com/ShaikShamik" target="_blank" class="font">Github</a>
+            <i class="fa-brands fa-github"></i>
+        </div>
+    </div>
+    <div class="main">
+        <h1>Number Guessing Game</h1>
+        <p id="para1">Try and guess a random number between 1 and 100.</p>
+        <p id="para2">You have 10 attempts to guess the right number.</p>
+        <form class="form">
+            <h2 id="heading2">Guess the number</h2>
+            <div id="input">
+                <input type="number" id="input-field">
+            </div>
+            <div id="Submit">
+                <button id="submit-button">Submit</button>
+            </div>
+        </form>
+        <div class="paras">
+            <p id="para3">Previous Guesses : <span class="guesses"></span></p>
+            <p id="para4">Guesses Remaining : <span class="last-result">10</span></p>
+            <div id="results">
+
+            </div>
+        </div>
+    </div>
+    <script src="./Game.js"></script>
+</body>
+
+</html>

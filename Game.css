@@ -1,0 +1,116 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.navbar{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+.link{
+    display:flex ;
+    margin-right: 5px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10vh;
+}
+.font{
+    color: #fff;
+    margin-right: 5px;
+}
+#link1{
+    background-color: navy;
+}
+#link2{
+    background-color: black;
+}
+.main{
+    height: 89vh;
+    background-image: url(./consoler.jpg);
+    background-size: cover;
+   
+}
+h1{
+    text-align: center;
+    color: #fff;
+}
+#para1{
+    text-align: center;
+    color: #fff;
+    margin-top: 25px;
+    font-size: large;
+}
+#para2{
+    text-align: center;
+    color: #fff;
+    margin-top: 5px;
+    font-size: large;
+}
+.form{
+    
+    color: #fff;
+    margin-top: 10vh;
+}
+#heading2{
+    text-align: center;
+    font-weight: bold;
+}
+#input{
+    text-align: center;
+    margin-top: 3vh;
+}
+input{
+    width: 25vw;
+    padding: 5px;
+}
+#Submit{
+    
+    text-align: center;
+    margin-top: 5vh;
+}
+button{
+    color: #fff;
+    font-weight: bold;
+    background-color: #344444;
+    width: 7vw ;
+    padding: 10px;
+    border-radius: 7px;
+}
+#para3{
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    color: #fff;
+    margin-top: 10vh;
+}
+#para4{
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    color: #fff;
+    margin-top: 3vh;
+}
+.guesses{
+    height: 100px;
+    width: 10vw;
+    background-color: whitesmoke;
+    color: black;
+}
+#results{
+    color: #fff;
+    text-align: center;
+    margin-top: 10vh;
+    font-size: larger;
+    font-weight: bold;
+}
+#newgame{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
