@@ -114,3 +114,37 @@ button{
     text-align: center;
     margin-top: 30px;
 }
+@media (min-width:320px) and (max-width: 480px) {
+    .navbar {
+        padding: 10px;
+    }
+
+    .link {
+        margin-right: 5px;
+        margin-right: 5px; 
+    }
+
+    #link1{
+        background-color: navy; 
+    }
+    #link2{
+        background-color: black;
+    }
+
+    .main {
+        height: auto; 
+    }
+
+    h1, #para1, #para2, #heading2, #input, #Submit, button, #para3, #para4, .guesses, #results, #newgame {
+        font-size: 15px; 
+    }
+
+    input {
+        width: 50vw; 
+    }
+    button{
+        width: 20vw;
+        padding: 5px;
+    }
+    
+}
