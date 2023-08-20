@@ -132,7 +132,7 @@ button{
     }
 
     .main {
-        height: auto; 
+        height: 89vh; 
     }
 
     h1, #para1, #para2, #heading2, #input, #Submit, button, #para3, #para4, .guesses, #results, #newgame {
